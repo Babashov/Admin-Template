@@ -1,0 +1,83 @@
+/* Default Classes */
+body{
+    background:#d2d2d2;
+    height: 100vh;
+}
+/* Navbar */
+.navbarDefault
+{
+    background: white;
+    height:100vh;
+}
+.selectedMenu i
+{
+    color: black;
+}
+
+.navbarTemplate .menuIcons a
+{
+    display: block;
+    padding-top: 50px;
+    color:#d2d2d2;
+    font-size: 14px;
+}
+
+.selectedMenu::before
+{
+    content: '';
+    position: absolute;
+    right:-27px;
+    height: 30px;
+    width: 3px;
+    background: black;
+    z-index: 99999;
+}
+
+.menuIconLastChild::before
+{
+    content: '';
+    position: absolute;
+    right:-2px;
+    background:#339af0;
+    width:6px;
+    height: 6px;
+    border:1px solid transparent;
+    border-radius: 50%;
+}
+
+
+/* Dashboard */
+#datepicker
+{
+    border:1px solid #d2d2d2;
+    border-radius: 2px;
+    outline: none;
+    text-align: center;
+    font-size:12px;
+}
+span.settings
+{
+    width:30px;
+    height:20px;
+    background: white;
+    display: block;
+    text-align: center;
+    margin-top: 4px;
+    border:none;
+}
+
+span.settings i
+{
+    color:#d2d2d2;
+    padding-top:5px;
+    font-size:12px;
+    display: block;
+}
+div.profile img
+{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
